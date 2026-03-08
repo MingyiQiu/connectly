@@ -1,9 +1,22 @@
-import './home.scss'
+import "./home.scss";
 
-export const Home = () => {
+const Home = () => {
   return (
-    <div className='home'>Home</div>
-  )
-}
+    <div className="home">
+      <h1>Home</h1>
+      <h1>Home</h1>
+      <h1>Home</h1>
+      <h1>Home</h1>
+      <h1>Home</h1>
+      <h1>Home</h1>
+      <h1>Home</h1>
+      <h1>Home</h1>
+      <h1>Home</h1>
+      {/* <Stories/>
+      <Share/>
+      <Posts/> */}
+    </div>
+  );
+};
 
 export default Home;
